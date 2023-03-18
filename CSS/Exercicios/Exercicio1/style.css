@@ -1,0 +1,22 @@
+body {
+  background-color: #313c52;
+}
+
+* {
+  color: white;
+}
+
+h3 {
+  color: #edcc00;
+}
+
+h2 {
+  background-color: #edcc00;
+  color: black;
+  border: 2px solid;
+}
+
+#astronomia {
+  color: #b24958;
+  font-weight: bold;
+}
