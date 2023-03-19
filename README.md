@@ -12,7 +12,7 @@ This is my study on the development of a complete web system, guided by the Oneb
 <h3>📚 Modules to be studied:</h3>
 <ul>
   <li>HTML 5 ✔️</li>
-  <li>CSS 3</li>
+  <li>CSS 3 ✔️</li>
   <li>Modern CSS</li>
   <li>Programming Logic [JavaScript I]</li>
   <li>DOM [JavaScript II]</li>
