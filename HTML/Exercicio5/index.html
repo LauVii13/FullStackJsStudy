@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 5 - Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="#" method="post">
+      <div>
+        <label for="nome">Nome:</label><br />
+        <input type="text" name="nome" id="nome" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email:</label><br />
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="telefone">WhatsApp:</label><br />
+        <input type="tel" name="telefone" id="telefone" />
+      </div>
+
+      <br />
+      <div>
+        <label>Área de Atuação:</label><br />
+
+        <input
+          type="radio"
+          name="dados"
+          id="desenvolvimento"
+          value="desenvolvimento"
+        />
+        <label for="desenvolvimento">Desenvolvimento</label>
+
+        <input
+          type="radio"
+          name="dados"
+          id="qualityAssurance"
+          value="qualityAssurance"
+        />
+        <label for="qualityAssurance">Quality Assurance (QA)</label>
+
+        <input
+          type="radio"
+          name="dados"
+          id="analiseDados"
+          value="analiseDados"
+        />
+        <label for="analiseDados">Análise de Dados</label>
+
+        <input
+          type="radio"
+          name="dados"
+          id="infraestrutura"
+          value="infraestrutura"
+        />
+        <label for="infraestrutura">Infraestrutura</label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="observacoes">Observações:</label><br />
+        <textarea name="observacoes" id="observacoes"></textarea>
+      </div>
+
+      <br />
+
+      <div>
+        <input type="checkbox" name="novidades" id="novidades" />
+        <label for="novidades"
+          >Desejo receber novidades e ofertas por email.</label
+        >
+      </div>
+
+      <br />
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
