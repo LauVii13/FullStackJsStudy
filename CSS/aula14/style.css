@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
