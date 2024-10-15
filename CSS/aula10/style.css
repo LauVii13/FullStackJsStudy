@@ -1,0 +1,41 @@
+/* inline: não quebra de linha, largura mínima, 
+apenas aceita margem e preenchimento horizontal */
+.inline {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+/* block: quebra de linha, largura máxima, 
+aceita margem e preenchimento horizontal e vertical */
+.block {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+/* inline-block: não quebra linha, largura mínima,
+aceita margem e preenchimento horizontal e vertical */
+.inline-block {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
