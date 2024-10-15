@@ -1,0 +1,15 @@
+body > h1 {
+  color: #0f0;
+}
+
+h1 {
+  color: #f00;
+}
+
+#azul {
+  color: #00f;
+}
+
+.cinza {
+  color: #333 !important;
+}
