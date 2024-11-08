@@ -24,17 +24,3 @@ getAge("1999-02-02")
   .catch((err) => {
     console.log(err.message);
   });
-
-// .then((age) => {
-//   checkAge(age)
-//     .then((isOver18) => {
-//       if (isOver18) console.log("É maior de idade");
-//       else console.log("É menor de idade");
-//     })
-//     .catch((err) => {
-//       console.log(err.message);
-//     });
-// })
-// .catch((err) => {
-//   console.log(err.message);
-// });
