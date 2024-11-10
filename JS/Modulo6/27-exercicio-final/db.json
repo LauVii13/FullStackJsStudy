@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    {
+      "id": "4e85",
+      "name": "salario",
+      "amount": 2000
+    },
+    {
+      "id": "f308",
+      "name": "kart",
+      "amount": -175
+    }
+  ]
+}
