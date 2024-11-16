@@ -1,0 +1,42 @@
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 19
+Uso de memória RAM: 8.91 GB / 15.92 GB (55.97%)
+---------------------------------------
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 20
+Uso de memória RAM: 8.92 GB / 15.92 GB (56.04%)
+---------------------------------------
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 21
+Uso de memória RAM: 8.92 GB / 15.92 GB (56.03%)
+---------------------------------------
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 22
+Uso de memória RAM: 8.85 GB / 15.92 GB (55.61%)
+---------------------------------------
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 23
+Uso de memória RAM: 8.84 GB / 15.92 GB (55.56%)
+---------------------------------------
+DETALHES DO SISTEMA:
+Sistema Operacional: Windows
+Arquitetura: x64
+Modelo do Processador: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
+Tempo de Atividade do Sistema: 0 : 2 : 53 : 24
+Uso de memória RAM: 8.84 GB / 15.92 GB (55.54%)
+---------------------------------------
