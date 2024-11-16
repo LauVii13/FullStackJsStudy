@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "25-exercicio-16": "file:",
     "dayjs": "^1.11.13"
   }
 }
