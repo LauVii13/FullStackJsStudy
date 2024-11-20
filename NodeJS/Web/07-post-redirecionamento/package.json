@@ -1,0 +1,17 @@
+{
+  "name": "06-html-dinamico-ejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "06-html-dinamico-ejs": "file:",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
