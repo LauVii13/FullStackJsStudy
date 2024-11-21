@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Blog Express</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <div class="container">
+      <h1>Escrever Post</h1>
+
+      <form action="/admin/create" method="post" class="post-form">
+        <label for="title">Titulo: </label>
+        <input type="text" name="title" id="title" />
+
+        <label for="content">Conteúdo: </label>
+        <textarea name="content" id="content" rows="12"></textarea>
+
+        <div class="btn-group">
+          <button type="submit" class="btn-create">Criar Post</button>
+          <a href="/admin" class="btn-back">Voltar</a>
+        </div>
+      </form>
+    </div>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>

@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "05-retornando-arquivos-html": "file:",
+    "05-retornando-html": "file:",
     "express": "^4.21.1"
   }
 }
