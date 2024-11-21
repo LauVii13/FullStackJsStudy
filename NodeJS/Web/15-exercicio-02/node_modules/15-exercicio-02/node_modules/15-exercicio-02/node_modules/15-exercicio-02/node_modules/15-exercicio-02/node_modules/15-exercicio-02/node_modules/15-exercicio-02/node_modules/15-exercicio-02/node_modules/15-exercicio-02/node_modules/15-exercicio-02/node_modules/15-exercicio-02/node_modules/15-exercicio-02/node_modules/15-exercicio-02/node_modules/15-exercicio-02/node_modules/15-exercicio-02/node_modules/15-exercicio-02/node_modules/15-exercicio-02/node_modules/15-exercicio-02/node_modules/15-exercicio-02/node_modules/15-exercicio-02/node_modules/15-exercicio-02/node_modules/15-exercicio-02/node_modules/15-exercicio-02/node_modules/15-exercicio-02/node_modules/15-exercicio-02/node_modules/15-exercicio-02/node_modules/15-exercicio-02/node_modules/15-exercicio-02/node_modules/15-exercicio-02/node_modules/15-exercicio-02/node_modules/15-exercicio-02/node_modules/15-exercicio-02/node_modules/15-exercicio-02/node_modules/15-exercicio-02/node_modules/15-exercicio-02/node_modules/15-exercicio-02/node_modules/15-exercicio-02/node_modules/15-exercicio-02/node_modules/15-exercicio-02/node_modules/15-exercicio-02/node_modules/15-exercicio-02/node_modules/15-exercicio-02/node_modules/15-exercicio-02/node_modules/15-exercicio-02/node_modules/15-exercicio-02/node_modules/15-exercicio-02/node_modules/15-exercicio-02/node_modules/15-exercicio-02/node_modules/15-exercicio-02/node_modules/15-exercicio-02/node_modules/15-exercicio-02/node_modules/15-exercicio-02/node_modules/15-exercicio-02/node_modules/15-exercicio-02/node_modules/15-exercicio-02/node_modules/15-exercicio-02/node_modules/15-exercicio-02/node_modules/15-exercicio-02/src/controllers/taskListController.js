@@ -21,8 +21,46 @@ module.exports = {
 
     res.redirect("/app");
   },
+
   // GET /app/:id
+  show: (req, res) => {
+    const { id } = req.params;
+    if (!id) throw new Error("Lista de Tarefas não encontrada");
+    const taskList = taskListModel.getTaskListById(id);
+
+    res.render("show", { taskList });
+  },
+
   // POST /app/:id/delete
+  delete: (req, res) => {
+    const { id } = req.params;
+    taskListModel.deleteList(id);
+    res.redirect("/app");
+  },
+
   // POST /app/:id/new-task
+  addTask: (req, res) => {
+    const { id } = req.params;
+    const { title } = req.body;
+
+    taskListModel.addTask(id, title);
+
+    res.redirect(`/app/${id}`);
+  },
+
   // POST /app/:listId/complete/:taskId
+  completeTask: (req, res) => {
+    const { listId, taskId } = req.params;
+
+    taskListModel.completeTask(listId, taskId);
+    res.redirect(`/app/${listId}`);
+  },
+
+  // POST /app/:listId/undo/:taskId
+  undoTask: (req, res) => {
+    const { listId, taskId } = req.params;
+
+    taskListModel.undoTask(listId, taskId);
+    res.redirect(`/app/${listId}`);
+  },
 };

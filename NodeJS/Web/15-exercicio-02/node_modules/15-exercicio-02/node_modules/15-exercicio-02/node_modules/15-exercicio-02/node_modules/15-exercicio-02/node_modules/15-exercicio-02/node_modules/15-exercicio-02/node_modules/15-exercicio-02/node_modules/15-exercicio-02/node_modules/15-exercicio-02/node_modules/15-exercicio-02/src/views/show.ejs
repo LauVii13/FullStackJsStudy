@@ -19,7 +19,7 @@
       <h1><%= taskList.title %></h1>
 
       <form
-        action="/app/<%= taskList.id %>/nova-tarefa"
+        action="/app/<%= taskList.id %>/new-task"
         method="POST"
         class="mb-3"
       >
@@ -41,7 +41,7 @@
         >
           <%= task.title %> <% if (!task.completed) { %>
           <form
-            action="/app/<%= taskList.id %>/completar/<%= task.id %>"
+            action="/app/<%= taskList.id %>/complete/<%= task.id %>"
             method="POST"
           >
             <button type="submit" class="btn btn-success btn-sm">
@@ -50,7 +50,7 @@
           </form>
           <% } else { %>
           <form
-            action="/app/<%= taskList.id %>/desfazer/<%= task.id %>"
+            action="/app/<%= taskList.id %>/undo/<%= task.id %>"
             method="POST"
           >
             <button type="submit" class="btn btn-danger btn-sm">
