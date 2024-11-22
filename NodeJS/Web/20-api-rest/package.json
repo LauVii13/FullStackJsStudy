@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "20-api-rest": "file:",
     "express": "^4.21.1"
   }
 }
