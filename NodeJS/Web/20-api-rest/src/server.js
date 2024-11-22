@@ -16,6 +16,9 @@ app.post("/games/:id/genres", gamesController.addGenre);
 
 app.put("/games/:id", gamesController.update);
 
+app.delete("/games/:id", gamesController.delete);
+app.delete("/games/:id/genres/:genre", gamesController.removeGenre);
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () =>
   console.log("Servidor iniciado em http://localhost:" + PORT)
