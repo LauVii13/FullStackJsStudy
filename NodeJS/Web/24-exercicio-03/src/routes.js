@@ -3,15 +3,15 @@ const playlistsController = require("./controllers/playlists-controller");
 
 const router = express.Router();
 
-router.get("/", (req, res) => res.json({ message: "Hello World!" }));
+router.get("/", playlistsController.index);
+router.get("/:id", playlistsController.show);
 
-router.get("/playlists", playlistsController.index);
-router.get("/playlists/:id", playlistsController.show);
+router.post("/", playlistsController.save);
+router.post("/:id/musics", playlistsController.addMusic);
 
-router.post("/playlists", playlistsController.save);
+router.put("/:id", playlistsController.update);
 
-router.put("/playlists/:id", playlistsController.update);
-
-router.delete("/playlists/:id", playlistsController.delete);
+router.delete("/:id", playlistsController.delete);
+router.delete("/:playlistId/musics/:musicId", playlistsController.removeMusic);
 
 module.exports = router;

@@ -1,12 +1,12 @@
 const express = require("express");
 const path = require("node:path");
-const router = require("./routes");
+const playlistRouter = require("./routes");
 
 const app = express();
 
 app.use(express.json());
 
-app.use("/api", router);
+app.use("/api/playlists", playlistRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () =>
