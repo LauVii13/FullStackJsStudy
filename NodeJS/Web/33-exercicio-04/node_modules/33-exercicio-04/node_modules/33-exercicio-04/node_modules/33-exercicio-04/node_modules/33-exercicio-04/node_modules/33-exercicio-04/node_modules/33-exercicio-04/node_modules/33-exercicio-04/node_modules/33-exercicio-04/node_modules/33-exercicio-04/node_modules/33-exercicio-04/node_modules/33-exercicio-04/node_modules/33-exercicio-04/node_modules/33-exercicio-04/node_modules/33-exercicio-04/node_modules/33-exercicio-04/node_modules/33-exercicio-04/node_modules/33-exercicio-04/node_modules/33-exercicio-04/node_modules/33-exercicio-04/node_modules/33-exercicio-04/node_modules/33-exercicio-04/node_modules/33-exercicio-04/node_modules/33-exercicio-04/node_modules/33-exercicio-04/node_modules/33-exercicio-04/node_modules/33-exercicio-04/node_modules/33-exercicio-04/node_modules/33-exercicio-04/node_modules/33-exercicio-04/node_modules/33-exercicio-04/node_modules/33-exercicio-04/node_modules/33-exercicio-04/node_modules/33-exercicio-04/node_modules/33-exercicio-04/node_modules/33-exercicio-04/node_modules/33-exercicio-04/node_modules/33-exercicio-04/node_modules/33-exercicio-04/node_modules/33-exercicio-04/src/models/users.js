@@ -15,8 +15,11 @@ module.exports = {
 
   findByEmail: (email) => users.find((user) => user.email === email),
 
+  registerUser: (name, email, password) =>
+    module.exports.createUser(name, email, password, "standard"),
+
   createUser: (name, email, password, role) => {
-    const emailAlreadyRegistered = findByEmail(email);
+    const emailAlreadyRegistered = module.exports.findByEmail(email);
 
     if (emailAlreadyRegistered) return null;
 
@@ -31,9 +34,6 @@ module.exports = {
     users.push(newUser);
     return newUser;
   },
-
-  registerUser: (name, email, password) =>
-    createUser(name, email, password, "standard"),
 
   deleteUser: (id) => {
     const userIndex = users.findIndex((user) => user.id === id);
