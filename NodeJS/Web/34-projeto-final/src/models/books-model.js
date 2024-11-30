@@ -47,4 +47,22 @@ module.exports = {
 
     return deleteBook;
   },
+
+  takeBook: (id) => {
+    const bookIndex = books.findIndex((book) => book.id === id);
+
+    if (bookIndex === -1)
+      throw new HttpError(404, "Livro não encontrado no sistema");
+
+    books[bookIndex].quantityAvailable--;
+  },
+
+  returnBook: (id) => {
+    const bookIndex = books.findIndex((book) => book.id === id);
+
+    if (bookIndex === -1)
+      throw new HttpError(404, "Livro não encontrado no sistema");
+
+    books[bookIndex].quantityAvailable++;
+  },
 };
